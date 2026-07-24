@@ -1,3 +1,0 @@
-# magotm
-
-COMPRA TU INTRO
