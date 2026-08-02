@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introducción 3D — Comprar | MAGO</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">
+      <span>m</span>
+    </div>
+  </div>
+  <nav class="links">
+    <a href="index.html#inicio">INICIO</a>
+    <a href="tienda.html" class="active">TIENDA</a>
+    <a href="index.html#sobre-mi">SOBRE MÍ</a>
+  </nav>
+</header>
+
+<section class="shop-hero">
+  <a href="tienda.html" class="back-link shop-eyebrow">← VOLVER A LA TIENDA</a>
+  <div class="eyebrow shop-eyebrow" style="animation-delay:.3s">COMPRAR INTRODUCCIÓN</div>
+  <h1 class="shop-h1">Elige el estilo de intro <span class="accent">que más se adapte a tu contenido.</span></h1>
+</section>
+
+<!-- 01 — ESTILO -->
+<section class="shop-section" id="estilo">
+  <div class="step-head scroll-reveal">
+    <div class="step-num">1</div>
+    <h2>Elige el tipo de introducción</h2>
+    <p>Selecciona el material y acabado visual que mejor represente tu marca. La vista previa se actualiza a la derecha.</p>
+  </div>
+
+  <div class="style-picker scroll-reveal" style="transition-delay:.1s">
+    <div class="style-list" id="styleList">
+      <div class="style-option active" data-style="piedra">
+        <div class="style-option-left">
+          <div class="radio"></div>
+          <div>
+            <div class="name">PIEDRA STYLE</div>
+            <div class="tag">Textura rocosa, look robusto y natural</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="style-option" data-style="gringo">
+        <div class="style-option-left">
+          <div class="radio"></div>
+          <div>
+            <div class="name">GRINGO STYLE</div>
+            <div class="tag">Acabado dorado, lujoso y llamativo</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="style-option" data-style="metallic">
+        <div class="style-option-left">
+          <div class="radio"></div>
+          <div>
+            <div class="name">METALLIC STYLE</div>
+            <div class="tag">Cromado y frío, estética futurista</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="style-option" data-style="plastic">
+        <div class="style-option-left">
+          <div class="radio"></div>
+          <div>
+            <div class="name">PLASTIC STYLE</div>
+            <div class="tag">Brillante y colorido, energía juvenil</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="style-option" data-style="glass">
+        <div class="style-option-left">
+          <div class="radio"></div>
+          <div>
+            <div class="name">GLASS STYLE</div>
+            <div class="tag">Translúcido y elegante, minimalista</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview-panel">
+      <div class="preview-stage mat-piedra" id="previewStage">
+        <span class="pm">m</span>
+      </div>
+      <div class="preview-info">
+        <div class="preview-label">VISTA PREVIA — PIEDRA STYLE</div>
+        <p id="previewDesc">Textura rocosa con relieve marcado, ideal para canales de gaming, terror o contenido con estética cruda y robusta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 — INFORMACIÓN -->
+<section class="shop-section alt" id="informacion">
+  <div class="step-head scroll-reveal">
+    <div class="step-num">2</div>
+    <h2>Información que necesito de ti</h2>
+    <p>Después de realizar la compra, necesitaré la siguiente información para crear tu intro personalizada.</p>
+  </div>
+
+  <form class="info-form scroll-reveal" style="transition-delay:.1s">
+    <div class="form-row">
+      <label>Color principal</label>
+      <div class="hint">El color que quieres que predomine en tu intro.</div>
+      <div class="color-row">
+        <input type="color" value="#ff5e0f">
+        <input type="text" placeholder="Ej. Naranja, #FF5E0F, o descríbelo con tus palabras">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label>Música</label>
+      <div class="hint">La música que quieres que incluya tu intro (link, nombre de la canción, o género).</div>
+      <input type="text" placeholder="Ej. link de YouTube, nombre de canción o estilo musical">
+    </div>
+
+    <div class="form-row">
+      <label>Nombre / logo</label>
+      <div class="hint">El nombre o logo que aparecerá en tu intro.</div>
+      <input type="text" placeholder="Ej. tu nombre de canal, marca o usuario">
+    </div>
+
+    <div class="form-row">
+      <label>Idea o referencia</label>
+      <div class="hint">Cualquier idea, referencia o estilo similar que tengas en mente.</div>
+      <textarea rows="3" placeholder="Describe tu idea o pega un link de referencia"></textarea>
+    </div>
+
+    <div class="form-row">
+      <label>Detalles adicionales</label>
+      <div class="hint">Cualquier otro detalle que quieras agregar.</div>
+      <textarea rows="3" placeholder="Escribe aquí cualquier detalle extra"></textarea>
+    </div>
+  </form>
+</section>
+
+<!-- 03 — PLAN -->
+<section class="shop-section" id="plan">
+  <div class="step-head scroll-reveal">
+    <div class="step-num">3</div>
+    <h2>Elige tu plan</h2>
+    <p>Dos opciones según el nivel de detalle y calidad que necesites.</p>
+  </div>
+
+  <div class="plans">
+    <div class="plan-card scroll-reveal" style="transition-delay:.1s">
+      <div class="plan-name">INTRODUCCIÓN BÁSICA</div>
+      <div class="plan-price">$5 <span>USD</span></div>
+      <ul class="plan-features">
+        <li class="no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg> Sin sincronización de cámara</li>
+        <li class="no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg> Sin movimiento de texto sincronizado</li>
+        <li class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> Calidad 2K a 60 fps</li>
+        <li class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> Duración de hasta 10 segundos</li>
+      </ul>
+      <a href="#" class="plan-btn">ELEGIR BÁSICA</a>
+    </div>
+
+    <div class="plan-card featured scroll-reveal" style="transition-delay:.2s">
+      <div class="plan-badge">MÁS COMPLETO</div>
+      <div class="plan-name">INTRODUCCIÓN AVANZADA</div>
+      <div class="plan-price">$10 <span>USD</span></div>
+      <ul class="plan-features">
+        <li class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> Sincronización de cámara</li>
+        <li class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> Movimiento de texto sincronizado</li>
+        <li class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> Calidad 4K a 60 fps</li>
+        <li class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg> Duración de hasta 20 segundos</li>
+      </ul>
+      <a href="#" class="plan-btn solid">ELEGIR AVANZADA</a>
+    </div>
+  </div>
+</section>
+
+<!-- 04 — INFO IMPORTANTE -->
+<section class="shop-section alt" id="info-importante">
+  <div class="step-head scroll-reveal">
+    <div class="step-num">i</div>
+    <h2>Antes de comprar</h2>
+    <p>Lee esto con calma, así ambos sabemos qué esperar del proceso.</p>
+  </div>
+
+  <div class="info-grid">
+    <div class="info-card scroll-reveal" style="transition-delay:.1s">
+      <div class="info-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+      </div>
+      <h3>TIEMPO DE ENTREGA</h3>
+      <p>El tiempo mínimo de entrega es de <strong>un mes</strong>. Al momento de realizar la compra debes contactarte conmigo inmediatamente para iniciar el proceso. Después de eso, entrarás a una lista de espera — el tiempo exacto dependerá de cuántos clientes hayan comprado antes que tú.</p>
+    </div>
+
+    <div class="info-card scroll-reveal" style="transition-delay:.2s">
+      <div class="info-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
+      </div>
+      <h3>TÉRMINOS Y CONDICIONES</h3>
+      <p>Después de la compra, ten paciencia durante el proceso de creación. <strong>No se realizan reembolsos</strong>. Si tienes cualquier duda, contáctame directamente por mis redes sociales — las encuentras aquí abajo.</p>
+    </div>
+
+    <div class="info-card scroll-reveal" style="transition-delay:.3s">
+      <div class="info-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="6" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+      </div>
+      <h3>MÉTODOS DE PAGO</h3>
+      <p>Por ahora, el único método de pago disponible es <strong>PayPal</strong>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact-band" id="contacto">
+  <div class="contact-band-left">
+    <div class="logo-mark">
+      <span>m</span>
+    </div>
+    <p>Ideas. Animación. Impacto.</p>
+  </div>
+  <a href="index.html#sobre-mi" class="contact-band-btn">CONTÁCTAME →</a>
+</section>
+
+<footer>
+  <div class="footer-socials">
+    <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.5 15.5v-7L15.8 12l-6.3 3.5Z"/></svg></a>
+    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 2.1.26 2.7.5.6.24 1.1.6 1.6 1.1.5.5.86 1 1.1 1.6.24.6.44 1.5.5 2.7.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.06 1.2-.26 2.1-.5 2.7a4.5 4.5 0 0 1-1.1 1.6 4.5 4.5 0 0 1-1.6 1.1c-.6.24-1.5.44-2.7.5-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.06-2.1-.26-2.7-.5a4.5 4.5 0 0 1-1.6-1.1 4.5 4.5 0 0 1-1.1-1.6c-.24-.6-.44-1.5-.5-2.7C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.06-1.2.26-2.1.5-2.7.24-.6.6-1.1 1.1-1.6.5-.5 1-.86 1.6-1.1.6-.24 1.5-.44 2.7-.5C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.15 0-3.52 0-4.76.07-1.03.05-1.6.22-1.97.37-.5.19-.85.42-1.22.79-.37.37-.6.72-.79 1.22-.15.37-.32.94-.37 1.97C2.8 8.48 2.8 8.85 2.8 12s0 3.52.07 4.76c.05 1.03.22 1.6.37 1.97.19.5.42.85.79 1.22.37.37.72.6 1.22.79.37.15.94.32 1.97.37 1.24.06 1.61.07 4.76.07s3.52 0 4.76-.07c1.03-.05 1.6-.22 1.97-.37.5-.19.85-.42 1.22-.79.37-.37.6-.72.79-1.22.15-.37.32-.94.37-1.97.06-1.24.07-1.61.07-4.76s0-3.52-.07-4.76c-.05-1.03-.22-1.6-.37-1.97a3 3 0 0 0-.79-1.22 3 3 0 0 0-1.22-.79c-.37-.15-.94-.32-1.97-.37C15.52 4 15.15 4 12 4Zm0 3.4a4.6 4.6 0 1 1 0 9.2 4.6 4.6 0 0 1 0-9.2Zm0 1.8a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6Zm5.8-2a1.08 1.08 0 1 1-2.15 0 1.08 1.08 0 0 1 2.15 0Z"/></svg></a>
+    <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 2h-3.1v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.5a6.1 6.1 0 1 0 5.1 6V8.9a7.6 7.6 0 0 0 4.4 1.4V7.2c-2.4 0-4.4-2-4.4-5.2Z"/></svg></a>
+    <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2h3.1l-6.8 7.8L23.3 22h-6.3l-4.9-6.4L6.5 22H3.4l7.3-8.3L2.7 2H9.2l4.4 5.9L18.9 2Zm-1.1 18h1.7L7.3 3.9H5.5L17.8 20Z"/></svg></a>
+    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06C2 17.08 5.66 21.24 10.44 22v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22C18.34 21.24 22 17.08 22 12.06Z"/></svg></a>
+  </div>
+  <span>MAGO™</span> 2026
+</footer>
+
+<script>
+  const styles = {
+    piedra:  { mat:'mat-piedra',  label:'VISTA PREVIA — PIEDRA STYLE',  desc:'Textura rocosa con relieve marcado, ideal para canales de gaming, terror o contenido con estética cruda y robusta.' },
+    gringo:  { mat:'mat-gringo',  label:'VISTA PREVIA — GRINGO STYLE',  desc:'Acabado dorado y lujoso, perfecto para contenido de lifestyle, negocios o marcas que buscan destacar con opulencia.' },
+    metallic:{ mat:'mat-metallic',label:'VISTA PREVIA — METALLIC STYLE',desc:'Superficie cromada y fría, con estética futurista. Encaja con tech, ciencia ficción y contenido de innovación.' },
+    plastic: { mat:'mat-plastic', label:'VISTA PREVIA — PLASTIC STYLE', desc:'Colores vivos y acabado brillante, con energía juvenil. Ideal para entretenimiento, comedia y redes sociales.' },
+    glass:   { mat:'mat-glass',   label:'VISTA PREVIA — GLASS STYLE',   desc:'Translúcido y minimalista, con un aire elegante y limpio. Encaja con marcas premium y contenido lifestyle.' },
+  };
+
+  const options = document.querySelectorAll('.style-option');
+  const stage = document.getElementById('previewStage');
+  const label = document.querySelector('.preview-label');
+  const desc = document.getElementById('previewDesc');
+
+  options.forEach(opt => {
+    opt.addEventListener('click', () => {
+      options.forEach(o => o.classList.remove('active'));
+      opt.classList.add('active');
+
+      const key = opt.dataset.style;
+      const s = styles[key];
+
+      stage.className = 'preview-stage ' + s.mat;
+      label.textContent = s.label;
+      desc.textContent = s.desc;
+    });
+  });
+
+  const revealEls = document.querySelectorAll('.scroll-reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting){
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
